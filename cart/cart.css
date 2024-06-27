@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Playfair Display", serif ;
+}
+.head{
+    font-size: 20px;
+    background-color:#0A2342;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+}
+.head,a{
+    text-decoration: none;
+
+}
+#ani{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    margin-top: 30px;
+    height: 200px;
+    letter-spacing: 10px;
+    justify-content: center;
+    align-items: center;
+    text-shadow:  0px 2px 2px rgba(255, 255, 255, 0.4);
+    animation:5s move linear infinite ;
+     
+}
+ @media only screen and (max-width:420px){
+    #ani{font-size:15px;
+         height: 50px;
+          width: 90%; 
+         letter-spacing:3px;
+    }
+    
+}
+@media only screen and (max-width:768px){
+    #ani{font-size: 30px;
+         height:100px;
+         letter-spacing:10px;
+         width:90%;
+    }
+    
+}
+@media only screen and(max-width:420px){
+    #icons{
+        font-size: 20px;
+        padding: 3px;
+        margin-left: 10px;
+    }
+}
+@keyframes move{
+    50%{
+      transform: translateY(-30px);
+    }
+}
+
+
+#product_container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.btn_1{
+    display: flex;
+    justify-content:space-between;
+    /* flex: 1; */
+    
+}
+.btn_1 button{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0A0903;
+    color: white;
+    /* margin: 0 10px; */
+}
+.card-img-top {
+    /* object-fit: cover; */
+    width: 0px;
+    height: 200px;
+    
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn_1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+.footer{
+    margin-top: 50px;
+    background-color: #29335C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.card_1{
+    font-size: 20px;
+    background-color:#0CCA4A;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+     color: white;
+}
+.card_2{
+    justify-content: end;
+    display: flex;
+    margin-right: 40px;
+    padding: 10px ;
+}
+.card_2 button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #BEEE62;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #BDC4A7;
+    text-decoration: underline;
+}
+.footer a:hover{
+    background-color:#BEEE62 ;
+    color: white;
+    padding: 5px;
+}
+.footer h1{
+    color: white;
+    font-weight: lighter;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    color: #F4F4F4;
+     padding: 10px;
+    font-size: 25px;
+    justify-content: center;
+}
